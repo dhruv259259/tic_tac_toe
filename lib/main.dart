@@ -228,7 +228,8 @@ class _demoState extends State<demo> {
 
                       border: Border.all(width: 5,
                           color: (ans[7] == "0") ? Colors.black : Colors
-                              .white)),
+                              .white
+                      )),
                 )),),
             Expanded(child: InkWell(onTap: () => (t[8] == true) ? fun(8) : null,
                 child: Container(alignment: Alignment.center,
