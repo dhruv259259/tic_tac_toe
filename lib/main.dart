@@ -225,6 +225,7 @@ class _demoState extends State<demo> {
                       borderRadius: (ans[7] == "0")
                           ? BorderRadius.circular(3)
                           : BorderRadius.circular(10),
+
                       border: Border.all(width: 5,
                           color: (ans[7] == "0") ? Colors.black : Colors
                               .white)),
