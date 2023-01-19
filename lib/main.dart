@@ -233,6 +233,7 @@ class _demoState extends State<demo> {
                 )),),
             Expanded(child: InkWell(onTap: () => (t[8] == true) ? fun(8) : null,
                 child: Container(alignment: Alignment.center,
+
                   height: double.infinity,
 
                   child: Text("${ans[8]}", style: TextStyle(fontSize: 80,
